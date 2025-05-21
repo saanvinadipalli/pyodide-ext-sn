@@ -1,0 +1,16 @@
+package:
+  name: mercantile
+  version: 1.2.1
+  top-level:
+    - mercantile
+source:
+  url: https://files.pythonhosted.org/packages/py3/m/mercantile/mercantile-1.2.1-py3-none-any.whl
+  sha256: 30f457a73ee88261aab787b7069d85961a5703bb09dc57a170190bc042cd023f
+about:
+  home: https://github.com/mapbox/mercantile
+  PyPI: https://pypi.org/project/mercantile
+  summary: Web mercator XYZ tile utilities
+  license: BSD
+extra:
+  recipe-maintainers:
+    - PUT_YOUR_GITHUB_USERNAME_HERE

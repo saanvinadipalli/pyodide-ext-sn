@@ -11,6 +11,9 @@ about:
   PyPI: https://pypi.org/project/mercantile
   summary: Web mercator XYZ tile utilities
   license: BSD
+requirements:
+  run:
+    - click
 extra:
   recipe-maintainers:
     - saanvinadipalli

@@ -1,0 +1,16 @@
+package:
+  name: geographiclib
+  version: "2.0"
+  top-level:
+    - geographiclib
+source:
+  url: https://files.pythonhosted.org/packages/py3/g/geographiclib/geographiclib-2.0-py3-none-any.whl
+  sha256: 6b7225248e45ff7edcee32becc4e0a1504c606ac5ee163a5656d482e0cd38734
+about:
+  home: https://geographiclib.sourceforge.io/Python/2.0
+  PyPI: https://pypi.org/project/geographiclib
+  summary: The geodesic routines from GeographicLib
+  license: MIT
+extra:
+  recipe-maintainers:
+    - saanvinadipalli

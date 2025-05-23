@@ -1,0 +1,26 @@
+package:
+  name: contextily
+  version: 1.6.2
+  top-level:
+    - contextily
+source:
+  url: https://files.pythonhosted.org/packages/py3/c/contextily/contextily-1.6.2-py3-none-any.whl
+  sha256: b06ead7258b34e73db2e318e33554f54a22d207b3c272b74d8b64801773b3fc3
+about:
+  home: null
+  PyPI: https://pypi.org/project/contextily
+  summary: Context geo-tiles in Python
+  license: 3-Clause BSD
+requirements:
+  run:
+    - pillow
+    - matplotlib
+    - rasterio
+    - mercantile
+    - geopy
+    - joblib
+    - xyzservices
+    - requests
+extra:
+  recipe-maintainers:
+    - saanvinadipalli

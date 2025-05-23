@@ -11,6 +11,10 @@ about:
   PyPI: https://pypi.org/project/geopy
   summary: Python Geocoding Toolbox
   license: MIT
+requirements:
+  run:
+    - ssl
+    - geographiclib
 extra:
   recipe-maintainers:
     - saanvinadipalli

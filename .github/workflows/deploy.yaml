@@ -6,7 +6,7 @@ on:
       pyodide_packages:
         description: 'Pyodide packages to build, will set PYODIDE_PACKAGES'
         required: true
-        default: 'tag:min-scipy-stack,PyJWT,seaborn,contextily,geopandas'
+        default: 'tag:min-scipy-stack,PyJWT,seaborn,contextily,geopandas,urllib3,pywavelets,requests,globus-sdk,Cartopy,pyodide-http'
         type: string
   push:
     branches:
@@ -26,7 +26,7 @@ jobs:
       EMCC_CORES: 2
       PYODIDE_JOBS: 2
       CCACHE_DIR: /tmp/ccache
-      PYODIDE_PACKAGES: ${{ inputs.pyodide_packages || 'tag:min-scipy-stack,PyJWT,seaborn,contextily,geopandas' }}
+      PYODIDE_PACKAGES: ${{ inputs.pyodide_packages || 'tag:min-scipy-stack,PyJWT,seaborn,contextily,geopandas,urllib3,pywavelets,requests,globus-sdk,Cartopy,pyodide-http' }}
  
     steps:
       - uses: actions/checkout@v4

@@ -13,7 +13,7 @@ about:
   license: 3-Clause BSD
 requirements:
   run:
-    - pillow
+    - Pillow
     - matplotlib
     - rasterio
     - mercantile
